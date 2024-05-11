@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-FILEPATH="/Users/christophernowak/Documents/DATA 22100 Homework/"
+FILEPATH=""
 
 mnist_train = pd.read_csv(FILEPATH + "MNIST_train (1).csv").drop("Unnamed: 0", axis = 1)
 mnist_test = pd.read_csv(FILEPATH + "MNIST_test (1).csv").drop("Unnamed: 0", axis = 1)
