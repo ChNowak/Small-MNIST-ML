@@ -1,0 +1,3 @@
+Based on the confusion matricies, it seems like limiting the maximum depth harms the accuracy of the model.
+When increasing the number of predictors, the model appears to improve. Adding a cost complexity parameter
+seems to improve the model but only minimally.
